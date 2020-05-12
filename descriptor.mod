@@ -1,4 +1,4 @@
-name="Starborn: Improved Voidtouched"
+name="Starborn: Improved Voidtouched (2.6)"
 tags={
 	"Gameplay"
 	"Overhaul"
@@ -8,4 +8,4 @@ picture="thumbnail.png"
 }
 supported_version="2.6.3"
 path="D:/Users/Draconas/Documents/Paradox Interactive/Stellaris/mod/starborn"
-remote_file_id="1743133825"
+remote_file_id="2094438707"
