@@ -1,6 +1,6 @@
 ###Events Activated On Start###
 
-namespace = masseffect
+namespace = starborn
 
 # Terminus Systems Species Variety
 
