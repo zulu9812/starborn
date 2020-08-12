@@ -3,7 +3,7 @@
 ### Mass Effect Origins
  origin_starborn_omega:0 "Heart of the Terminus"
  origin_starborn_omega_desc:0 "The Terminus Systems are the lawless paradise of every criminal in the galaxy. These systems are populated by a loose affiliation of minor species, united only in their refusal to acknowledge the political authority of the Council."
- origin_tooltip_starborn_omega_effects:0 "This will spawn several other Mass Effect races on your starting planet. Starting race must be Asari with the Asari Lifespan trait. §YWill start with §Y$starborn_habitat$§!s.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets\nChoice of start system: normal or Sol"
+ origin_tooltip_starborn_omega_effects:0 "This will spawn several other Mass Effect races on your starting planet. Starting race must be Asari with the Asari Lifespan trait. §YWill start with §Y$starborn_habitat$§!s.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets"
 
 ### Original Starborn
  origin_starborn:0 "Starborn"
