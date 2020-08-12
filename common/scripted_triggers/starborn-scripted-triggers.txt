@@ -10,6 +10,7 @@ habitable_structure = {
 has_starborn = {
 	OR = {
 		has_origin = origin_starborn
+		has_origin = origin_starborn_omega
 		has_country_flag = EGS_START_STARBORN
 		has_country_flag = starborn_origin
 	}
