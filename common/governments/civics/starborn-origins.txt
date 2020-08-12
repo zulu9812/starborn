@@ -37,7 +37,7 @@ origin_starborn = {
 origin_starborn_omega = {
 	is_origin = yes
 	#icon = "gfx/interface/icons/origins/origins_default.dds"
-	icon = "gfx/interface/civics/civic_omega.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_omega.dds"
 	picture = GFX_origin_omega
 
 	starting_colony = pc_starborn_habitat_start
