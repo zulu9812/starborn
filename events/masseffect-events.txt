@@ -5,7 +5,7 @@ namespace = starborn
 # Terminus Systems Species Variety
 
 country_event = {
-	id = masseffect.1
+	id = starborn_me.1
 	hide_window = yes
 	
 	trigger = {
