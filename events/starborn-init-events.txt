@@ -346,3 +346,181 @@ country_event = {
 		}
 	}
 }
+
+# Terminus Systems Species Variety
+
+country_event = {
+	id = starborn_init.4
+	hide_window = yes
+	
+	trigger = {
+		has_origin = origin_terminus_omega
+	}
+
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			create_species = {
+				class="MassEffectBIO"
+				portrait="vorcha"
+				name="Vorcha"
+				plural="Vorcha"
+				adjective="Vorcha"
+				name_list="vorcha"
+				homeworld = this
+				traits = { 
+					trait="me_trait_vorcha_primitive"
+					trait="me_trait_vorcha_adaptation"
+				}
+				sapient = yes
+				is_mod = no
+				immortal = no
+			}
+			create_species = {
+				class="MassEffectBIO"
+				portrait="batarian"
+				name="Batarian"
+				plural="Batarians"
+				adjective="Batarians"
+				name_list="batarian"
+				homeworld = this
+				traits = { 
+					trait="trait_decadent"
+					trait="trait_quarrelsome"
+					trait="me_trait_four_eyes"
+					trait="trait_conformists"
+				}
+				sapient = yes
+				is_mod = no
+				immortal = no
+			}
+			create_species = {
+				class="MassEffectBIO"
+				portrait="krogan"
+				name="Krogan"
+				plural="Krogan"
+				adjective="Krogan"
+				name_list="krogan"
+				homeworld = this
+				traits = { 
+					trait="trait_survivor"
+					trait="me_trait_genophage"
+					trait="me_trait_violent_by_nature"
+					trait="me_trait_krogan_physiology"
+				}
+				sapient = yes
+				is_mod = no
+				immortal = no
+			}
+			create_species = {
+				class="MassEffectBIO"
+				portrait="quarian"
+				name="Quarian"
+				plural="Quarians"
+				adjective="Quarian"
+				homeworld = this
+				name_list="quarian_names"
+				traits = { 
+					trait="me_trait_ship_bound"
+					trait="me_trait_keelahsalai"
+					trait="me_trait_dextro_immunity"
+				}
+				sapient = yes
+				is_mod = no
+				immortal = no
+			}
+			create_species = {
+				class="MassEffectBIO"
+				portrait="turian"
+				name="Turian"
+				plural="Turians"
+				adjective="Turian"
+				name_list="turian_names"
+				homeworld = this
+				traits = { 
+					trait="me_trait_born_to_serve"
+					trait="me_trait_dextro_immunity"
+				}
+				sapient = yes
+				is_mod = no
+				immortal = no
+			}
+			create_species = {
+				class="MassEffectBIO"
+				portrait="human"
+				name="Human"
+				plural="Humans"
+				adjective="Human"
+				name_list="alliance_names"
+				homeworld = this
+				traits = { 
+					trait="trait_wasteful"
+					trait="me_trait_humans_ambitious"
+				}
+				sapient = yes
+				is_mod = no
+				immortal = no
+			}
+		}
+		capital_scope = {
+            while = {
+                random_pop = {
+                    limit = {
+                        has_trait = me_trait_asari_life
+                    }
+                    kill_pop = yes
+                }
+                count = 25
+            }
+        }
+		capital_scope = {
+			while = {
+				count = 5
+				create_pop = {
+					species = "Human"
+				}
+			}
+		}
+		capital_scope = {
+			while = {
+				count = 7
+				create_pop = {
+					species = "Krogan"
+				}
+			}
+		}
+		capital_scope = {
+			while = {
+				count = 8
+				create_pop = {
+					species = "Vorcha"
+				}
+			}
+		}
+		capital_scope = {
+			while = {
+				count = 9
+				create_pop = {
+					species = "Batarian"
+				}
+			}
+		}
+		capital_scope = {
+			while = {
+				count = 6
+				create_pop = {
+					species = "Turian"
+				}
+			}
+		}
+		capital_scope = {
+			while = {
+				count = 3
+				create_pop = {
+					species = "Quarian"
+				}
+			}
+		}
+	}
+}

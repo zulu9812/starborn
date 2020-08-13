@@ -10,7 +10,7 @@ on_game_start_country = {
 	events = {
 		starborn_init.1					#spawn starting habitats in system
 		starborn_init.3					#general blurb
-		starborn_me.1					#Terminus Diversity Pop Spawn
+		starborn_init.4					#Terminus Diversity Pop Spawn
 	}
 }
 
