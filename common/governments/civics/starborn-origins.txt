@@ -44,7 +44,7 @@ origin_starborn_omega = {
 	habitability_preference = pc_starborn_habitat_start
 	preferred_planet_class_neighbor = no
 	#initializer = starborn_system
-	initializers = { starborn_system }
+	initializers = { me_sahrabarik_system }
 
 	playable = { host_has_dlc = "Utopia" }
 
