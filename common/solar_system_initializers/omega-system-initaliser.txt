@@ -33,8 +33,8 @@ starborn_sahrabarik_system = {
 		class = star
 		name = "Sahrabarik"
 		orbit_distance = 0
-		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		orbit_angle = { min = 20 max = 30 }
+		size = 1
 		has_ring = no
 		flags = { ignore_startup_effect has_megastructure starborn_start_solar }
 		moon = {
@@ -57,7 +57,7 @@ starborn_sahrabarik_system = {
 		count = 1
 		class = pc_asteroid
 		orbit_distance = 0
-		orbit_angle = { min = 20 max = 70 }
+		orbit_angle = { min = 10 max = 30 }
 		flags = { ignore_startup_effect has_megastructure starborn_origin }
 		modifiers = none
 		
@@ -68,6 +68,7 @@ starborn_sahrabarik_system = {
 		moon = { 
 			class = pc_starborn_habitat_start
 			home_planet = yes
+			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 			size = 16
 			flags = { megastructure habitat starborn_orbital_city egs_home_planet_marker }
@@ -77,21 +78,6 @@ starborn_sahrabarik_system = {
 				generate_empire_home_planet = yes		
 				prevent_anomaly = yes
 			}
-		}
-	}
-	
-	planet = {
-		count = 2
-		orbit_distance = 20
-		class = random_non_colonizable
-		orbit_angle = { min = 110 max = 320 }
-		change_orbit = @base_moon_distance
-
-		moon = {
-			count = { min = 0 max = 1 }
-			class = random_non_colonizable
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
 		}
 	}
 	
@@ -131,41 +117,52 @@ starborn_sahrabarik_system = {
 	}
 	
 	planet = {
-		count = { min = 2 max = 4 }
-		orbit_distance = 35
-		class = random_non_colonizable
-		orbit_angle = { min = 90 max = 270 }
-		
-		change_orbit = @base_moon_distance
-
-		moon = {
-			count = { min = 0 max = 1 }
-			class = random_non_colonizable
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
-		}
+		name = "Urdak"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = random
+		size = 20
+		has_ring = no
 	}
 	
 	planet = {
-		count = 2
-		orbit_distance = 20
-		class = pc_gas_giant
-		orbit_angle = { min = 90 max = 270 }
-		
-		change_orbit = @base_moon_distance
-
-		moon = {
-			count = { min = 0 max = 3 }
-			class = random_non_colonizable
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
-		}
+		name = "Imorkan"
+		class = "pc_gas_giant"
+		size = 20
+		orbit_distance = 40
+		orbit_angle = random
+		has_ring = no
 	}
 	
 	planet = {
-		count = { min = 1 max = 2 }
+		name = "Omega 4 Relay"
+		class = "gateway_ruined"
+		size = 18
+		orbit_distance = 10
+		orbit_angle = random
+		has_ring = no
+		entity = "deactivated_gateway_entity"
+	}
+	
+	planet = {
+		name = "Bindur"
+		class = "pc_barren"
 		orbit_distance = 20
-		class = random_non_colonizable
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = random
+		size = 10
+		starting_planet = no
+		has_ring = no
+	}
+	
+	neighbor_system = {
+		trigger = { num_guaranteed_colonies >= 2 }
+		distance = { min = 10 max = @distance }
+		initializer = "neighbor_t1"
+	}
+	
+	neighbor_system = {
+		trigger = { num_guaranteed_colonies >= 1 }
+		distance = { min = 10 max = @distance }	
+		initializer = "neighbor_t1_first_colony"
 	}
 }
