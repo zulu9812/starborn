@@ -33,8 +33,8 @@ starborn_sahrabarik_system = {
 		class = star
 		name = "Sahrabarik"
 		orbit_distance = 0
-		orbit_angle = { min = 20 max = 30 }
-		size = 1
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
 		has_ring = no
 		flags = { ignore_startup_effect has_megastructure starborn_start_solar }
 		moon = {
