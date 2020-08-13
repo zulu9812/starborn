@@ -531,7 +531,7 @@ country_event = {
 	hide_window = yes
 	
 	trigger = {
-		has_origin = origin_terminus_omega
+		has_origin = origin_starborn_omega
 	}
 
 	is_triggered_only = yes
