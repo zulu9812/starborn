@@ -66,7 +66,7 @@ origin_starborn_omega = {
 	}
 
 	description = "origin_tooltip_starborn_omega_effects"
-	#flags = { custom_start_screen }
+	flags = { custom_start_screen }
 
 	traits = {
 		trait = trait_starborn_positive
