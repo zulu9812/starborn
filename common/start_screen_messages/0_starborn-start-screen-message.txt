@@ -5,7 +5,7 @@ part = {
         location = 0
         localization = "START_SCREEN_STARBORN"	
         trigger = {
-                origin = origin_starborn
+                has_origin = origin_starborn
         }		
 }
 # Heart of the Terminus
@@ -13,6 +13,6 @@ part = {
         location = 0
         localization = "START_SCREEN_OMEGA"	
         trigger = {
-                origin = origin_starborn_omega
+                has_origin = origin_starborn_omega
         }		
 }
