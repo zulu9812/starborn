@@ -454,7 +454,6 @@ country_event = {
 				adjective="Human"
 				name_list="alliance_names"
 				homeworld = this
-				habitability_preference = pc_contintental
 				traits = { 
 					trait="trait_wasteful"
 					trait="me_trait_humans_ambitious"
