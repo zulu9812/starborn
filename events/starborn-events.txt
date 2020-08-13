@@ -2,7 +2,7 @@ namespace = starborn
 
 # Terminus Systems Species Variety
 country_event = {
-	id = starborn_me.1
+	id = starborn_init.4
 	hide_window = yes
 	
 	trigger = {
