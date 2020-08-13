@@ -6,9 +6,9 @@
 @moon_min_size = 6
 @moon_max_size = 10
 
-starborn_system = {
-	name = "Sahrabarik"
+starborn_sahrabarik_system = {
 	class = "rl_starting_stars"
+	name = "Sahrabarik"
 
 	asteroid_belt = {
 		type = rocky_asteroid_belt
@@ -29,11 +29,12 @@ starborn_system = {
 	}
 
 	planet = {
+        count = 1
+		class = star
 		name = "Sahrabarik"
-		class = "pc_m_star"
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 20
+		size = { min = 20 max = 30 }
 		has_ring = no
 		flags = { ignore_startup_effect has_megastructure starborn_start_solar }
 		moon = {
@@ -166,49 +167,5 @@ starborn_system = {
 		orbit_distance = 20
 		class = random_non_colonizable
 		orbit_angle = { min = 90 max = 270 }
-	}
-	planet = {
-		name = "Urdak"
-		class = "pc_gas_giant"
-		orbit_distance = 30
-		orbit_angle = random
-		size = 20
-		has_ring = no
-	}
-	planet = {
-		name = "Imorkan"
-		class = "pc_gas_giant"
-		size = 20
-		orbit_distance = 40
-		orbit_angle = random
-		has_ring = no
-	}
-	planet = {
-		name = "Omega 4 Relay"
-		class = "gateway_ruined"
-		size = 18
-		orbit_distance = 10
-		orbit_angle = random
-		has_ring = no
-		entity = "deactivated_gateway_entity"
-	}
-	planet = {
-		name = "Bindur"
-		class = "pc_barren"
-		orbit_distance = 20
-		orbit_angle = random
-		size = 10
-		starting_planet = no
-		has_ring = no
-	}
-	neighbor_system = {
-		trigger = { num_guaranteed_colonies >= 2 }
-		distance = { min = 10 max = @distance }
-		initializer = "neighbor_t1"
-	}
-	neighbor_system = {
-		trigger = { num_guaranteed_colonies >= 1 }
-		distance = { min = 10 max = @distance }	
-		initializer = "neighbor_t1_first_colony"
 	}
 }
