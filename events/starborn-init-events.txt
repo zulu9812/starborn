@@ -369,6 +369,7 @@ country_event = {
 				adjective="Vorcha"
 				name_list="vorcha"
 				homeworld = this
+				habitability_preference = pc_arid
 				traits = { 
 					trait="me_trait_vorcha_primitive"
 					trait="me_trait_vorcha_adaptation"
@@ -385,6 +386,7 @@ country_event = {
 				adjective="Batarians"
 				name_list="batarian"
 				homeworld = this
+				habitability_preference = pc_alpine
 				traits = { 
 					trait="trait_decadent"
 					trait="trait_quarrelsome"
@@ -403,6 +405,7 @@ country_event = {
 				adjective="Krogan"
 				name_list="krogan"
 				homeworld = this
+				habitability_preference = pc_nuked
 				traits = { 
 					trait="trait_survivor"
 					trait="me_trait_genophage"
@@ -420,6 +423,7 @@ country_event = {
 				plural="Quarians"
 				adjective="Quarian"
 				homeworld = this
+				habitability_preference = pc_starborn_habitat_start
 				name_list="quarian_names"
 				traits = { 
 					trait="me_trait_ship_bound"
@@ -438,6 +442,7 @@ country_event = {
 				adjective="Turian"
 				name_list="turian_names"
 				homeworld = this
+				habitability_preference = pc_tropical
 				traits = { 
 					trait="me_trait_born_to_serve"
 					trait="me_trait_dextro_immunity"
@@ -454,6 +459,7 @@ country_event = {
 				adjective="Human"
 				name_list="alliance_names"
 				homeworld = this
+				habitability_preference = pc_continental
 				traits = { 
 					trait="trait_wasteful"
 					trait="me_trait_humans_ambitious"
@@ -476,7 +482,7 @@ country_event = {
         }
 		capital_scope = {
 			while = {
-				count = 5
+				count = 3
 				create_pop = {
 					species = "Human"
 				}
@@ -484,7 +490,7 @@ country_event = {
 		}
 		capital_scope = {
 			while = {
-				count = 7
+				count = 4
 				create_pop = {
 					species = "Krogan"
 				}
@@ -492,7 +498,7 @@ country_event = {
 		}
 		capital_scope = {
 			while = {
-				count = 8
+				count = 6
 				create_pop = {
 					species = "Vorcha"
 				}
@@ -500,7 +506,7 @@ country_event = {
 		}
 		capital_scope = {
 			while = {
-				count = 9
+				count = 6
 				create_pop = {
 					species = "Batarian"
 				}
@@ -508,7 +514,7 @@ country_event = {
 		}
 		capital_scope = {
 			while = {
-				count = 6
+				count = 3
 				create_pop = {
 					species = "Turian"
 				}
