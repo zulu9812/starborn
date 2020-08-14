@@ -8,7 +8,7 @@ origin_starborn = {
 	habitability_preference = pc_starborn_habitat_start
 	preferred_planet_class_neighbor = no
 	#initializer = starborn_system
-	initializers = { starborn_system starborn_sol_system }
+	initializers = { starborn_system }
 
 	playable = { host_has_dlc = "Utopia" }
 
@@ -28,6 +28,39 @@ origin_starborn = {
 	# }
 
 	description = "origin_tooltip_starborn_effects"
+	flags = { custom_start_screen }
+
+	traits = {
+		trait = trait_starborn_positive
+	}
+}
+origin_starborn_cerberus = {
+	is_origin = yes
+	#icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_cerberus.dds"
+	picture = GFX_origin_cerberus
+
+	starting_colony = pc_starborn_habitat_start
+	habitability_preference = pc_continental
+	preferred_planet_class_neighbor = no
+	#initializer = starborn_system
+	initializers = initializers = { starborn_anadius_system }
+
+	playable = { host_has_dlc = "Utopia" }
+
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_democratic } }
+	}
+
+	modifier = {		
+		all_technology_research_speed = 0.05
+		country_starbase_influence_cost_mult = -0.50
+		edicts_cost_mult = -0.25
+		planet_jobs_upkeep_mult = 0.10
+	}
+
+	description = "origin_tooltip_starborn_cerberus_effects"
 	flags = { custom_start_screen }
 
 	traits = {
