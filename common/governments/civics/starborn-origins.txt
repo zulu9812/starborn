@@ -38,7 +38,7 @@ origin_starborn_cerberus = {
 	is_origin = yes
 	#icon = "gfx/interface/icons/origins/origins_default.dds"
 	icon = "gfx/interface/icons/governments/civics/civic_cerberus.dds"
-	picture = GFX_origin_cerberus
+	picture = GFX_origin_shadow_organization
 
 	starting_colony = pc_starborn_habitat_start
 	habitability_preference = pc_continental
