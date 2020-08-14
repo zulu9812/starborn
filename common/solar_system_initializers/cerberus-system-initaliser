@@ -6,9 +6,9 @@
 @moon_min_size = 6
 @moon_max_size = 10
 
-starborn_system = {
+starborn_anadius_system = {
 	class = "rl_starting_stars"
-  name = "Anadius"
+  	name = "Anadius"
 
 	asteroid_belt = {
 		type = rocky_asteroid_belt
