@@ -7,6 +7,12 @@
  starborn_sahrabarik_system_NAME:0 "Sahrabarik System"
  starborn_sahrabarik_system_DESC:0 "Home to Omega, unofficial capital of the Terminus Systems.\n\nStarting world is an §Y$pc_starborn_habitat_start$§!.\n- Build §Y$starborn_habitat$§!s immediately and modularly.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets"
 
+ origin_starborn_cerberus:0 "Shadow Organization"
+ origin_starborn_cerberus_desc:0 "Cerberus is comprised of several different cells, each with their own objective, operating in secret to further humanity. They range from research teams, to naval contractors, to military kill-squads."
+ origin_tooltip_starborn_cerberus_effects:0 "Will start with §Y$starborn_habitat$§!s.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets"
+ starborn_anadius_system_NAME:0 "Anadius System"
+ starborn_anadius_system_DESC:0 "Home to Cronos Station, headquarters of Cerberus.\n\nStarting world is an §Y$pc_starborn_habitat_start$§!.\n- Build §Y$starborn_habitat$§!s immediately and modularly.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets"
+
 ### Original Starborn
  origin_starborn:0 "Starborn"
  origin_starborn_desc:0 "This civilisation starts in an enormous orbital city above the ruins of their homeworld.  They are skilled at orbital construction, but generations of living in artifical environments have made the natural ecosystems of planets undesirable to their physiology"
