@@ -26,6 +26,8 @@ gov_shell_corporation = {
 	ruler_title_female = RT_CERBERUS_FEMALE
 	
 	should_force_rename = yes
+	
+	use_regnal_names = yes
 
 	election_candidates = {
 		modifier = {
