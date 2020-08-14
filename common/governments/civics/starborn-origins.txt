@@ -44,7 +44,7 @@ origin_starborn_cerberus = {
 	habitability_preference = pc_continental
 	preferred_planet_class_neighbor = no
 	#initializer = starborn_system
-	initializers = initializers = { starborn_anadius_system }
+	initializers = { starborn_anadius_system }
 
 	playable = { host_has_dlc = "Utopia" }
 
