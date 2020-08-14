@@ -313,9 +313,10 @@ cerberus_names = {
 				"Walker Jr." "Taylor Jr." "Scott Jr." "Meriweather II" "Barksdale III" "Leadbetter IV" "Pemberton II" "Trapier III" Kowalski
 				Rabinowitz Feldman Katz Roykirk Decker
 			}
-			regnal_first_names_male = { Alexander Vladimir Boris Tiberius Theobald Valerian Maximus Lucius }
-			regnal_first_names_female = { Theodora Fatima Miranda Cordelia Svetlana Anastasia Valentina Henrietta }
-			regnal_second_names = { Habsburg Romanov Windsor Mountbatten Salazar Nelson }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names2 = {
@@ -336,9 +337,10 @@ cerberus_names = {
 				Zhivenkov Kazakov Krutov Ivannikov Kolosov Kuzin Larionov Maksimushkin Markov Ostrovsky Polachev Rychenkov Romanov
 				Sayanovich Statnik Sorokin Turgenev Titov Tvardovsky Antonov Skobelev Lazarev Makarov Dragomirov Alexseyev
 			}
-			regnal_first_names_male = { Alexander Vladimir Boris Tiberius Theobald Valerian Maximus Lucius }
-			regnal_first_names_female = { Theodora Fatima Miranda Cordelia Svetlana Anastasia Valentina Henrietta }
-			regnal_second_names = { Habsburg Romanov Windsor Mountbatten Salazar Nelson }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names3 = {
@@ -355,9 +357,10 @@ cerberus_names = {
 				Liang Luo Kuang Lu Zheng Lin Xu Xie Wang Zhu Yang Mao Shen Hu Tan He Deng Wu Cheng Gao Wan Kong Pan Sima Zhuge Ouyang Situ
 				Huang Zhao Zhang
 			}
-			regnal_first_names_male = { You Yong Yi Xiong Wu Feng Gang Guo Hu Hui }
-			regnal_first_names_female = { Ai Bi Lian Lin Mei Na Ni Xiu Xue Yan Ying Yu Yuan }
-			regnal_second_names = { Wang Zhu Yang }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names4 = {
@@ -378,9 +381,10 @@ cerberus_names = {
 				"von Gebser" "von Fritsch" "von Wrangel" "von Halkett" "von Boyen" "von Falkenstein" Dreyer Wolf Klein Richter Schäfer
 				Neumann Braun Schwarz Krüger Stein Keller Schubert Baumann Ziegler Brandt Sauer Kreutz Bergmeister Andbert
 			}
-			regnal_first_names_male = { Alexander Vladimir Boris Tiberius Theobald Valerian Maximus Lucius }
-			regnal_first_names_female = { Theodora Fatima Miranda Cordelia Svetlana Anastasia Valentina Henrietta }
-			regnal_second_names = { Habsburg Romanov Windsor Mountbatten Salazar Nelson }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names5 = {
@@ -400,9 +404,10 @@ cerberus_names = {
 				Morin Lavoie Fortin Gagne Duval Hébert "Le Gall" "Le Roux" Deville Gerard Duchaine Jauvin Gilbert Bergeron Paquette
 				Pelletier Rémy Giroud Bosquet "de Castelnau" "de Montaignac" Lebouef Péllissier Deveraux
 			}
-			regnal_first_names_male = { Alexander Vladimir Boris Tiberius Theobald Valerian Maximus Lucius }
-			regnal_first_names_female = { Theodora Fatima Miranda Cordelia Svetlana Anastasia Valentina Henrietta }
-			regnal_second_names = { Habsburg Romanov Windsor Mountbatten Salazar Nelson }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names6 = {
@@ -420,9 +425,10 @@ cerberus_names = {
 				Inoue Kimura Shimizu Hayashi Saito Yamazaki Nakajima Mori Abe Ikeda Hashimoto Ishikawa Yamashita Ogawa Ishii Hasegawa
 				Goto Okada Fujita Sakamoto Murakami Nishimura Nakagawa Harada Okamoto Miura Takaya Amano Higuchi Ota
 			}
-			regnal_first_names_male = { Teruhito Nekuhiko Mimatsuhiko Anaho Hironari Norinaga }
-			regnal_first_names_female = { Nukatabe Toyomike Takara Niinomi Hidaka Takama Okiko Toshiko }
-			regnal_second_names = { "no Mikoto" Sumeramikoto Otomo Suijin Mononobe Yamato }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names7 = {
@@ -440,9 +446,10 @@ cerberus_names = {
 				Kulkarni Dodamani Patil Gupta Sharma Namboodiri Pannikar Potti Kutty Varma Sondharam Sooriyaprakash Chandran Vijay
 				Venktaesan Puttappa
 			}
-			regnal_first_names_male = { Kayaan Darsh Veer Rahul Mahesh Shaurya Atharv Advik Pranav }
-			regnal_first_names_female = { Saanvi Aanya Aadhya Aaradhya Ananya Priyanka Divya Mahima Shivangi }
-			regnal_second_names = { Kumar Moorthi Shastri Prasad Acharya Patil Gupta Sharma Namboodiri Pannikar Potti Kutty Varma Sondharam }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names8 = {
@@ -462,9 +469,10 @@ cerberus_names = {
 				Ramirez Mendez Perez Vasquez Ruiz Aguera Alonso Batista Esguerra Flores "de la Guardia" "de la Cruz" "de la Vega"
 				"de Vargas" Ibanez Moralez Riveros Rosario Velazco Torres Quesada Saldana Salazar Ortega Ortiz Solano Romero
 			}
-			regnal_first_names_male = { Santiago Ricardo Marcelo Javier Ernesto Gerardo Guillermo }
-			regnal_first_names_female = { Alicia Antonia Carla Carmen Catalina Dolores Martina Julieta Antonella Renata }
-			regnal_second_names = { Fernandez Sanchez Lopez Martin Perez Gonzalez Alvarez Gomez Diaz }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names9 = {
@@ -482,9 +490,10 @@ cerberus_names = {
 				Bakir Hussein al-Hazmi al-Bishi El-Baz Ibrahim Ishak Ismail El-Farouk Hassan El-Ghazali Bilal Nadir Juhani Jawahir Hamidi
 				al-Jazari al-Samarrai Salman Qasim Qudsi Qaderi al-Qadi Farrokhzad Madani Sassani Turani Khadem Ghorbani Jamshidi Rahimi
 			}
-			regnal_first_names_male = { Abdullah Abbas Abed Khalil Khalid Malik Mahdi Nasir Omar Rashad Rashid Samir }
-			regnal_first_names_female = { Zeinab Reihaneh Mobina Narges Ma'soumeh Sakineh Aya Alma Amani Amira }
-			regnal_second_names = { Arakat Abbas "Abdel Nour" Abboud al-Ahdal al-Jazari al-Samarrai Salman Qasim Qudsi Qaderi al-Qadi Farrokhzad Madani }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names10 = {
@@ -509,9 +518,10 @@ cerberus_names = {
 				Msibi Ngobese Ngema Masuku Khonjwayo Khumalo Kwayi Mambi Mbanjwa Mkhwemte Mtakwenda Ngwanya Nkwali Thwane Skhosana Tshangisa 
 				Tshonyane Xhamela Xoko Zangwa Ndungwane Bhukhwana Dzana Gatyeni Gxarha Jwarha Khawuta
 			}
-			regnal_first_names_male = { Faraji Imamu Jelani Jengo Jumaane Khamisi Kwanele Lentswe Lesebo Letswalo Lutendo Mahlubandile Makalo Mareka }
-			regnal_first_names_female = { Kagiso Keneuwe Koketso Langalibalele Ntsebo Ntswaki Phathu Reneilwe Rudzani Shandu }
-			regnal_second_names = { Azikiwe Awolowo Balewa Akintola Nzeogwu Onwuatuegwu }
+			regnal_first_names_male = { Illusive }
+			regnal_first_names_female = { Illusive }
+			regnal_second_names_male = { Man }
+      			regnal_second_names_female = { Woman }
 		}
 		
 		names11 = {
@@ -535,7 +545,7 @@ cerberus_names = {
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
 			regnal_second_names_male = { Man }
-      regnal_second_names_female = { Woman }
+      			regnal_second_names_female = { Woman }
 		}
 	}
 }
