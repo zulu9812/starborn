@@ -67,6 +67,7 @@ starborn_sahrabarik_system = {
 
 		moon = { 
 			class = pc_starborn_habitat_start
+			name = "Omega"
 			home_planet = yes
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
