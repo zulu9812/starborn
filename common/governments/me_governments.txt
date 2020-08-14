@@ -22,7 +22,7 @@
 
 # Shell Corporations
 gov_shell_corporation = {
-	ruler_title = RT_OLIGARCH
+	ruler_title = RT_CERBERUS
 	
 	should_force_rename = yes
 
