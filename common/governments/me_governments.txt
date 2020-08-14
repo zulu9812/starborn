@@ -23,8 +23,6 @@
 # Shell Corporations
 gov_shell_corporation = {
 	should_force_rename = yes
-	
-	use_regnal_names = yes
 
 	election_candidates = {
 		modifier = {
