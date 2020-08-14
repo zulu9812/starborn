@@ -1,4 +1,4 @@
-cerberus_names = {
+starborn_cerberus_names = {
 	randomized = no
 
 	ship_names = {
