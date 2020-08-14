@@ -12,7 +12,7 @@
  origin_tooltip_starborn_cerberus_effects:0 "Will start with §Y$starborn_habitat$§!s.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets"
  starborn_anadius_system_NAME:0 "Anadius System"
  starborn_anadius_system_DESC:0 "Home to Cronos Station, headquarters of Cerberus.\n\nStarting world is an §Y$pc_starborn_habitat_start$§!.\n- Build §Y$starborn_habitat$§!s immediately and modularly.\n- §Y$starborn_habitat$§!s have different districts or bonuses depending on the planet or orbital deposits they are built around.\n- Pops suffer additional penalties and events if living on terrestrial planets"
- rt_omega:0 "Illusive Man"
+ rt_cerberus:0 "Illusive Man"
 
 ### Original Starborn
  origin_starborn:0 "Starborn"
