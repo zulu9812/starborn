@@ -8,7 +8,7 @@
 
 starborn_anadius_system = {
 	class = "rl_starting_stars"
-  	name = "Anadius"
+	name = "Anadius"
 
 	asteroid_belt = {
 		type = rocky_asteroid_belt
@@ -54,24 +54,54 @@ starborn_anadius_system = {
 	
 	planet = {
 		count = 1
-		class = pc_asteroid
+		name = "Paradise Lost"
+		class = pc_nuked
 		orbit_distance = 0
-		orbit_angle = { min = 10 max = 30 }
+		orbit_angle = { min = 20 max = 70 }
+		size = { min = 16 max = 20 }
+		deposit_blockers = none
 		flags = { ignore_startup_effect has_megastructure starborn_origin }
 		modifiers = none
 		
 		init_effect = {
 			prevent_anomaly = yes
+			# copy of the post_apoc deposits
+			# common/scripted_effects/01_start_of_game_effects.txt : generate_start_deposits_and_blockers
+			# 3 + 3 energy		
+			set_deposit = d_hot_springs		
+			add_deposit = d_searing_desert
+			add_deposit = d_underwater_vent	
+			
+			# 3 + 4 mining
+			add_deposit = d_veiny_cliffs		
+			add_deposit = d_ore_rich_caverns
+			add_deposit = d_submerged_ore_veins
+			
+			# 3 + 2 farming
+			add_deposit = d_lichen_fields	
+			add_deposit = d_fungal_caves 	
+			add_deposit = d_fungal_forest	
+	
+			# add starborn ruins blockers
+			# like regular ones, except they don't give you any pops when cleared as all the pops are dead.  
+			add_deposit = d_starborn_ruins
+			add_deposit = d_starborn_wasteland
+			add_deposit = d_starborn_ruins
+			add_deposit = d_starborn_wasteland	
+			add_deposit = d_starborn_ruins
+			add_deposit = d_starborn_wasteland
+			add_deposit = d_starborn_wasteland
+			add_deposit = d_starborn_wasteland
+			add_deposit = d_starborn_wasteland
 		}
 
-		moon = { 
+		moon = {
+			name = "Crono Station"      
 			class = pc_starborn_habitat_start
-      name = "Cronos Station"
 			home_planet = yes
-			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 			size = 16
-			flags = { megastructure habitat starborn_orbital_city egs_home_planet_marker }
+			flags = { megastructure habitat starborn_tomb_scavenging starborn_orbital_city egs_home_planet_marker }
 			deposit_blockers = none
 
 			init_effect = {
