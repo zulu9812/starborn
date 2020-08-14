@@ -22,9 +22,6 @@
 
 # Shell Corporations
 gov_shell_corporation = {
-	ruler_title = RT_CERBERUS_MALE
-	ruler_title_female = RT_CERBERUS_FEMALE
-	
 	should_force_rename = yes
 	
 	use_regnal_names = yes
