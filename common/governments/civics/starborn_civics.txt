@@ -1,5 +1,5 @@
 
-civic_drell_compact = {
+#civic_drell_compact = {
 	modification = no
 	icon = "gfx/interface/civics/civic_drell.dds"
 	potential = {
@@ -26,7 +26,7 @@ civic_drell_compact = {
 	description = civic_tooltip_drell_compact_effects
 }
 
-civic_salarian_stg = {
+#civic_salarian_stg = {
 	modification = yes
 	icon = "gfx/interface/civics/civic_spynet.dds"
 	potential = {
@@ -41,9 +41,10 @@ civic_salarian_stg = {
 	}
 }
 
+#Cerberus Civics
 civic_shell_corporations = {
 	modification = no
-	icon = "gfx/interface/icons/governments/civics/civic_franchising.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_cerberus.dds"
 	potential = {
 		authority = { value = auth_corporate }
 	}
@@ -56,6 +57,7 @@ civic_shell_corporations = {
 
 civic_sleeper_agents = {
 	modification = yes
+	#get new icon for this
 	icon = "gfx/interface/icons/governments/civics/civic_shadow_council.dds"
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
