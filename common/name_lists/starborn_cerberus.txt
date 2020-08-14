@@ -315,8 +315,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names2 = {
@@ -339,8 +338,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names3 = {
@@ -359,8 +357,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names4 = {
@@ -383,8 +380,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names5 = {
@@ -406,8 +402,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names6 = {
@@ -427,8 +422,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names7 = {
@@ -448,8 +442,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names8 = {
@@ -471,8 +464,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names9 = {
@@ -492,8 +484,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names10 = {
@@ -520,8 +511,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 		
 		names11 = {
@@ -544,8 +534,7 @@ starborn_cerberus_names = {
 			}
 			regnal_first_names_male = { Illusive }
 			regnal_first_names_female = { Illusive }
-			regnal_second_names_male = { Man }
-      			regnal_second_names_female = { Woman }
+			regnal_second_names = { Man }
 		}
 	}
 }
